@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | DarbDev</title>
+    <link rel="icon" type="image/png" href="DarbDev.png" />
+    <meta
+      name="description"
+      content="Contactez DarbDev pour parler de votre projet web, mobile ou logiciel."
+    />
+    <link rel="stylesheet" href="cssstyle.css" />
+  </head>
+  <body class="services-page">
+    <svg
+      class="svg-sprite"
+      aria-hidden="true"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <symbol id="icon-arrow" viewBox="0 0 24 24">
+        <path d="M5 12h13M13 6l6 6-6 6" />
+      </symbol>
+      <symbol id="icon-menu" viewBox="0 0 24 24">
+        <path d="M4 7h16M4 12h16M4 17h16" />
+      </symbol>
+      <symbol id="icon-close" viewBox="0 0 24 24">
+        <path d="m6 6 12 12M18 6 6 18" />
+      </symbol>
+      <symbol id="icon-mail" viewBox="0 0 24 24">
+        <rect x="3" y="5" width="18" height="14" rx="2" />
+        <path d="m4 7 8 6 8-6" />
+      </symbol>
+      <symbol id="icon-phone" viewBox="0 0 24 24">
+        <path
+          d="M6.6 3.5 9.4 3l2 4.6-1.8 1.5a13.2 13.2 0 0 0 5.3 5.3l1.5-1.8 4.6 2-.5 2.8c-.2 1-1.1 1.6-2.1 1.5C10.9 17.9 6.1 13.1 3.1 5.6c-.3-1 .5-1.9 1.5-2.1Z"
+        />
+      </symbol>
+    </svg>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <div class="topbar__contact">
+          <a href="mailto:bonjour@darbdev.fr">bonjour@darbdev.fr</a
+          ><a href="tel:+33783219507">+33 7 83 21 95 07</a>
+        </div>
+        <div class="topbar__right">
+          <span>Agence logicielle · Lyon</span
+          ><a class="topbar__cta" href="contact.html"
+            >Contactez-nous
+            <svg class="icon icon--small"><use href="#icon-arrow" /></svg
+          ></a>
+        </div>
+      </div>
+    </div>
+    <header class="site-header" id="site-header">
+      <div class="container header__inner">
+        <a class="brand" href="index.html" aria-label="DarbDev, accueil"
+          ><span class="brand__mark"
+            ><span></span><span></span><span></span></span
+          ><span>Darb<span>Dev</span></span></a
+        ><button
+          class="menu-toggle"
+          type="button"
+          aria-label="Ouvrir le menu"
+          aria-expanded="false"
+          aria-controls="main-menu"
+        >
+          <svg class="icon menu-toggle__open"><use href="#icon-menu" /></svg
+          ><svg class="icon menu-toggle__close"><use href="#icon-close" /></svg>
+        </button>
+        <nav class="main-nav" id="main-menu" aria-label="Navigation principale">
+          <ul class="main-nav__list">
+            <li><a class="nav-link" href="index.html">Accueil</a></li>
+            <li><a class="nav-link" href="services.html">Services</a></li>
+            <li><a class="nav-link" href="projects.html">Réalisations</a></li>
+            <li>
+              <a class="nav-link" href="methodologie.html">Méthodologie</a>
+            </li>
+            <li><a class="nav-link" href="team.html">Équipe</a></li>
+            <li>
+              <a class="nav-link is-active" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <a class="button button--header" href="contact.html"
+            >Parlons de votre projet
+            <svg class="icon icon--small"><use href="#icon-arrow" /></svg
+          ></a>
+        </nav>
+      </div>
+    </header>
+    <main id="contenu">
+      <section class="services-page-hero">
+        <div class="container services-page-hero__inner">
+          <span class="eyebrow eyebrow--light"
+            ><span class="eyebrow__dot"></span> Parlons de votre projet</span
+          >
+          <h1>Un échange simple<br /><em>pour commencer.</em></h1>
+          <p>
+            Décrivez votre contexte, vos objectifs et ce qui vous bloque. Nous
+            vous répondrons avec une première lecture utile.
+          </p>
+        </div>
+        <div class="services-page-hero__shape" aria-hidden="true"></div>
+      </section>
+      <section class="contact-section section--dark" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-intro reveal">
+            <span class="section-index section-index--light">01 / CONTACT</span>
+            <h2>Faisons avancer<br /><em>votre idée.</em></h2>
+            <p>
+              Une première conversation suffit pour identifier le bon prochain
+              pas.
+            </p>
+            <div class="contact-details">
+              <a href="mailto:bonjour@darbdev.fr"
+                ><svg class="icon"><use href="#icon-mail" /></svg
+                ><span><small>Email</small>bonjour@darbdev.fr</span></a
+              ><a href="tel:+33783219507"
+                 ><svg class="icon"><use href="#icon-phone" /></svg
+                 ><span><small>Téléphone</small>+33 7 83 21 95 07</span></a
+               ><a href="https://wa.me/33782425651"
+                 ><svg class="icon"><use href="#icon-phone" /></svg
+                 ><span><small>WhatsApp</small>+33 7 82 42 56 51</span></a
+               >
+            </div>
+          </div>
+          <form class="contact-form reveal" id="contact-form" novalidate>
+            <div class="form-heading">
+              <span>Parlez-nous de vous</span
+              ><small>* Champs obligatoires</small>
+            </div>
+            <div class="form-grid">
+              <label
+                >Nom complet *<input
+                  type="text"
+                  name="name"
+                  autocomplete="name"
+                  required
+                  placeholder="Votre nom" /><span
+                  class="form-error"
+                  id="name-error"
+                ></span></label
+              ><label
+                >Email professionnel *<input
+                  type="email"
+                  name="email"
+                  autocomplete="email"
+                  required
+                  placeholder="vous@entreprise.com" /><span
+                  class="form-error"
+                  id="email-error"
+                ></span></label
+              ><label
+                >Type de projet *<select name="project" required>
+                  <option value="">Sélectionnez une option</option>
+                  <option>Site web</option>
+                  <option>Application mobile ou web</option>
+                  <option>Logiciel desktop</option>
+                  <option>ERP / CRM</option>
+                  <option>Solution métier</option></select
+                ><span class="form-error" id="project-error"></span></label
+              ><label class="form-full"
+                >Votre projet *<textarea
+                  name="message"
+                  rows="6"
+                  required
+                  placeholder="Décrivez votre besoin en quelques lignes"
+                ></textarea
+                ><span class="form-error" id="message-error"></span
+              ></label>
+            </div>
+            <label class="consent"
+              ><input type="checkbox" name="consent" required /> J'accepte
+              d'être recontacté au sujet de ma demande.<span
+                class="form-error"
+                id="consent-error"
+              ></span
+            ></label>
+            <div class="contact-upgrade__submit">
+              <button class="button button--accent" type="submit">
+                Envoyer ma demande
+                <svg class="icon"><use href="#icon-arrow" /></svg></button
+              ><span id="form-success" class="form-success" hidden
+                >Merci, votre demande a bien été préparée.</span
+              >
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a class="brand brand--footer" href="index.html"
+            ><span class="brand__mark"
+              ><span></span><span></span><span></span></span
+            ><span>Darb<span>Dev</span></span></a
+          >
+          <p>
+            Des solutions digitales qui font avancer les organisations et les
+            personnes.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h3>Explorer</h3>
+          <a href="services.html">Services</a
+          ><a href="projects.html">Réalisations</a><a href="team.html">Équipe</a
+          ><a href="methodologie.html">Méthodologie</a>
+        </div>
+        <div class="footer-col">
+          <h3>Nous trouver</h3>
+          <a href="mailto:bonjour@darbdev.fr">bonjour@darbdev.fr</a
+          ><a href="tel:+33783219507">+33 7 83 21 95 07</a
+          ><a href="https://wa.me/33782425651">WhatsApp · +33 7 82 42 56 51</a
+          ><span>Lyon, France</span>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2024 DarbDev. Tous droits réservés.</span
+        ><span>Conçu avec intention <b>✦</b></span>
+      </div>
+    </footer>
+    <a
+      class="whatsapp-float"
+      href="https://wa.me/33783219507"
+      target="_blank"
+      rel="noreferrer"
+      aria-label="Nous contacter sur WhatsApp"
+      ><span aria-hidden="true">↗</span></a
+    ><button
+      class="back-to-top"
+      id="back-to-top"
+      type="button"
+      aria-label="Retour en haut"
+    >
+      <svg class="icon"><use href="#icon-arrow" /></svg>
+    </button>
+    <script src="site-config.js" defer></script>
+    <script src="jsmain.js" defer></script>
+  </body>
+</html>

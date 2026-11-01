@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Méthodologie | DarbDev</title>
+    <link rel="icon" type="image/png" href="DarbDev.png" />
+    <meta
+      name="description"
+      content="Découvrez la méthodologie de gestion de projet N-FLOW de DarbDev."
+    />
+    <link rel="stylesheet" href="cssstyle.css" />
+  </head>
+  <body class="services-page">
+    <svg
+      class="svg-sprite"
+      aria-hidden="true"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <symbol id="icon-arrow" viewBox="0 0 24 24">
+        <path d="M5 12h13M13 6l6 6-6 6" />
+      </symbol>
+      <symbol id="icon-menu" viewBox="0 0 24 24">
+        <path d="M4 7h16M4 12h16M4 17h16" />
+      </symbol>
+      <symbol id="icon-close" viewBox="0 0 24 24">
+        <path d="m6 6 12 12M18 6 6 18" />
+      </symbol>
+    </svg>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <div class="topbar__contact">
+          <a href="mailto:bonjour@darbdev.fr">bonjour@darbdev.fr</a
+          ><a href="tel:+33783219507">+33 7 83 21 95 07</a>
+        </div>
+        <div class="topbar__right">
+          <span>Agence logicielle · Lyon</span
+          ><a class="topbar__cta" href="contact.html"
+            >Contactez-nous
+            <svg class="icon icon--small"><use href="#icon-arrow" /></svg
+          ></a>
+        </div>
+      </div>
+    </div>
+    <header class="site-header" id="site-header">
+      <div class="container header__inner">
+        <a class="brand" href="index.html" aria-label="DarbDev, accueil"
+          ><span class="brand__mark"
+            ><span></span><span></span><span></span></span
+          ><span>Darb<span>Dev</span></span></a
+        ><button
+          class="menu-toggle"
+          type="button"
+          aria-label="Ouvrir le menu"
+          aria-expanded="false"
+          aria-controls="main-menu"
+        >
+          <svg class="icon menu-toggle__open"><use href="#icon-menu" /></svg
+          ><svg class="icon menu-toggle__close"><use href="#icon-close" /></svg>
+        </button>
+        <nav class="main-nav" id="main-menu" aria-label="Navigation principale">
+          <ul class="main-nav__list">
+            <li><a class="nav-link" href="index.html">Accueil</a></li>
+            <li><a class="nav-link" href="services.html">Services</a></li>
+            <li><a class="nav-link" href="projects.html">Réalisations</a></li>
+            <li>
+              <a class="nav-link is-active" href="methodologie.html"
+                >Méthodologie</a
+              >
+            </li>
+            <li><a class="nav-link" href="team.html">Équipe</a></li>
+            <li><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+          <a class="button button--header" href="contact.html"
+            >Parlons de votre projet
+            <svg class="icon icon--small"><use href="#icon-arrow" /></svg
+          ></a>
+        </nav>
+      </div>
+    </header>
+    <main id="contenu">
+      <section class="services-page-hero">
+        <div class="container services-page-hero__inner">
+          <span class="eyebrow eyebrow--light"
+            ><span class="eyebrow__dot"></span> Notre méthode</span
+          >
+          <h1>Un cadre clair<br /><em>pour avancer.</em></h1>
+          <p>
+            Notre cadre N-FLOW associe cadrage, conception, développement,
+            qualité et déploiement pour livrer sans boîte noire.
+          </p>
+          <a class="button button--accent" href="contact.html"
+            >Parler de votre projet
+            <svg class="icon"><use href="#icon-arrow" /></svg
+          ></a>
+        </div>
+        <div class="services-page-hero__shape" aria-hidden="true"></div>
+      </section>
+      <section class="section methodology-section" id="methodologie">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <span class="section-index">01 / N-FLOW</span>
+              <h2>Six étapes pour<br /><em>un produit fiable.</em></h2>
+            </div>
+            <p>
+              Chaque étape produit une décision, un livrable ou une version
+              utilisable.
+            </p>
+          </div>
+          <div class="method-timeline">
+            <div class="method-timeline__line" aria-hidden="true">
+              <span></span>
+            </div>
+            <div class="method-steps">
+              <article class="method-step reveal is-open">
+                <button
+                  class="method-step__toggle"
+                  type="button"
+                  aria-expanded="true"
+                  aria-controls="method-detail-1"
+                >
+                  <span class="method-step__number">01</span
+                  ><span class="method-step__heading"
+                    ><strong>Découverte et cadrage</strong
+                    ><small>Comprendre avant de construire.</small></span
+                  ><span class="method-step__duration">1 à 2 sem.</span
+                  ><span class="method-step__plus" aria-hidden="true">+</span>
+                </button>
+                <div class="method-step__details" id="method-detail-1">
+                  <p>
+                    Nous clarifions les objectifs, les contraintes, les
+                    utilisateurs et les priorités du projet.
+                  </p>
+                </div>
+              </article>
+              <article class="method-step reveal">
+                <button
+                  class="method-step__toggle"
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="method-detail-2"
+                >
+                  <span class="method-step__number">02</span
+                  ><span class="method-step__heading"
+                    ><strong>Conception UX/UI</strong
+                    ><small>Donner une forme claire aux usages.</small></span
+                  ><span class="method-step__duration">1 à 3 sem.</span
+                  ><span class="method-step__plus" aria-hidden="true">+</span>
+                </button>
+                <div class="method-step__details" id="method-detail-2" hidden>
+                  <p>
+                    Nous dessinons les parcours, les interfaces et
+                    l'architecture technique.
+                  </p>
+                </div>
+              </article>
+              <article class="method-step reveal">
+                <button
+                  class="method-step__toggle"
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="method-detail-3"
+                >
+                  <span class="method-step__number">03</span
+                  ><span class="method-step__heading"
+                    ><strong>Développement itératif</strong
+                    ><small>Livrer de la valeur à chaque sprint.</small></span
+                  ><span class="method-step__duration">1 à 2 sem.</span
+                  ><span class="method-step__plus" aria-hidden="true">+</span>
+                </button>
+                <div class="method-step__details" id="method-detail-3" hidden>
+                  <p>
+                    Les fonctionnalités sont développées par petites unités
+                    vérifiables.
+                  </p>
+                </div>
+              </article>
+              <article class="method-step reveal">
+                <button
+                  class="method-step__toggle"
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="method-detail-4"
+                >
+                  <span class="method-step__number">04</span
+                  ><span class="method-step__heading"
+                    ><strong>Tests et assurance qualité</strong
+                    ><small>Vérifier, sécuriser, améliorer.</small></span
+                  ><span class="method-step__duration">En continu</span
+                  ><span class="method-step__plus" aria-hidden="true">+</span>
+                </button>
+                <div class="method-step__details" id="method-detail-4" hidden>
+                  <p>
+                    Nous vérifions la qualité fonctionnelle, la performance et
+                    la sécurité.
+                  </p>
+                </div>
+              </article>
+              <article class="method-step reveal">
+                <button
+                  class="method-step__toggle"
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="method-detail-5"
+                >
+                  <span class="method-step__number">05</span
+                  ><span class="method-step__heading"
+                    ><strong>Déploiement et production</strong
+                    ><small>Passer du produit au quotidien.</small></span
+                  ><span class="method-step__duration">1 sem.</span
+                  ><span class="method-step__plus" aria-hidden="true">+</span>
+                </button>
+                <div class="method-step__details" id="method-detail-5" hidden>
+                  <p>
+                    Nous préparons la mise en ligne, la migration et la
+                    formation des équipes.
+                  </p>
+                </div>
+              </article>
+              <article class="method-step reveal">
+                <button
+                  class="method-step__toggle"
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="method-detail-6"
+                >
+                  <span class="method-step__number">06</span
+                  ><span class="method-step__heading"
+                    ><strong>Amélioration continue</strong
+                    ><small>Faire grandir la solution.</small></span
+                  ><span class="method-step__duration">Dans la durée</span
+                  ><span class="method-step__plus" aria-hidden="true">+</span>
+                </button>
+                <div class="method-step__details" id="method-detail-6" hidden>
+                  <p>
+                    Nous suivons les usages et priorisons les améliorations avec
+                    vos équipes.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a class="brand brand--footer" href="index.html"
+            ><span class="brand__mark"
+              ><span></span><span></span><span></span></span
+            ><span>Darb<span>Dev</span></span></a
+          >
+          <p>
+            Des solutions digitales qui font avancer les organisations et les
+            personnes.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h3>Explorer</h3>
+          <a href="services.html">Services</a
+          ><a href="projects.html">Réalisations</a><a href="team.html">Équipe</a
+          ><a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h3>Nous trouver</h3>
+          <a href="mailto:bonjour@darbdev.fr">bonjour@darbdev.fr</a
+          ><a href="tel:+33783219507">+33 7 83 21 95 07</a
+          ><a href="https://wa.me/33782425651">WhatsApp · +33 7 82 42 56 51</a
+          ><span>Lyon, France</span>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2024 DarbDev. Tous droits réservés.</span
+        ><span>Conçu avec intention <b>✦</b></span>
+      </div>
+    </footer>
+    <a
+      class="whatsapp-float"
+      href="https://wa.me/33783219507"
+      target="_blank"
+      rel="noreferrer"
+      aria-label="Nous contacter sur WhatsApp"
+      ><span aria-hidden="true">↗</span></a
+    ><button
+      class="back-to-top"
+      id="back-to-top"
+      type="button"
+      aria-label="Retour en haut"
+    >
+      <svg class="icon"><use href="#icon-arrow" /></svg>
+    </button>
+    <script src="site-config.js" defer></script>
+    <script src="jsmain.js" defer></script>
+  </body>
+</html>
