@@ -4,9 +4,9 @@ window.DARBDEV_CONFIG = {
     name: "DarbDev",
     city: "Lyon, France",
     email: "bonjour@darbdev.fr",
-    phone: "+33 7 83 21 95 07",
-    whatsapp: "33783219507",
-    whatsapp2: "33782425651"
+    phone: "07 82 42 56 51",
+    whatsapp: "212782425651",
+    whatsapp2: "212782425651"
   },
   theme: {
     primary: "#2A5A66",
