@@ -1,8 +1,8 @@
 /* Configuration centrale DarbDev : identité, contenus réutilisables et données de démonstration. */
 window.DARBDEV_CONFIG = {
   company: {
-    name: "DarbDev",
-    city: "Lyon, France",
+    name: "Felix Softwares",
+    city: "Casablanca, Maroc",
     email: "bonjour@darbdev.fr",
     phone: "07 82 42 56 51",
     whatsapp: "212782425651",
