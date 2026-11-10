@@ -1,9 +1,9 @@
-/* Configuration centrale DarbDev : identité, contenus réutilisables et données de démonstration. */
+/* Configuration centrale Felix Softwares : identité, contenus réutilisables et données de démonstration. */
 window.DARBDEV_CONFIG = {
   company: {
     name: "Felix Softwares",
     city: "Casablanca, Maroc",
-    email: "bonjour@darbdev.fr",
+    email: "felixsoftwares.agency@gmail.com",
     phone: "07 82 42 56 51",
     whatsapp: "212782425651",
     whatsapp2: "212782425651"
@@ -90,7 +90,7 @@ window.DARBDEV_CONFIG = {
       tech: ["HTML/CSS", "JavaScript", "Node.js"],
       repoUrl: "https://github.com/Saad-mrk",
       liveUrl: "",
-      image: "",
+      image: "PortailAtlass.jpeg",
       category: "Web"
     },
     {
@@ -100,7 +100,7 @@ window.DARBDEV_CONFIG = {
       tech: ["Flutter", "Firebase", "UX/UI"],
       repoUrl: "https://github.com/mohammedbourass-youssef",
       liveUrl: "",
-      image: "",
+      image: "NovaMobile.jpeg",
       category: "Mobile"
     },
     {
@@ -110,7 +110,7 @@ window.DARBDEV_CONFIG = {
       tech: ["Odoo", "Python", "PostgreSQL"],
       repoUrl: "https://github.com/TAOUFIK0",
       liveUrl: "",
-      image: "",
+      image: "fluxerp.jpeg",
       category: "ERP"
     }
   ]

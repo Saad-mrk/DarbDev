@@ -1,4 +1,4 @@
-/* DarbDev - base, composants et sections dans l'ordre de la page */
+/* Felix Softwares - base, composants et sections dans l'ordre de la page */
 :root {
   --ink: #12213d;
   --ink-soft: #546179;
@@ -186,7 +186,7 @@ h3 {
 }
 h1 em,
 h2 em {
-  color: var(--blue);
+  color: #4ade80 !important;
   font-style: normal;
 }
 .button {
@@ -573,22 +573,23 @@ h2 em {
   min-height: 600px;
 }
 .hero__image-wrap {
-  position: absolute;
-  inset: 50px 0 0 15px;
-  overflow: hidden;
-  border-top-left-radius: 180px;
-}
-.hero__image-wrap::after {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(35deg, rgba(16, 29, 53, 0.42), transparent 65%);
-  content: "";
+  position: relative;
+  width: min(100%, 900px);
+  height: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+  overflow: visible;
+  border-radius: 24px;
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  display: inline-block;
 }
 .hero__image-wrap img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: saturate(0.8);
+  height: auto;
+  object-fit: contain;
+  border-radius: 22px;
+  filter: none;
 }
 .hero__floating-card {
   position: absolute;

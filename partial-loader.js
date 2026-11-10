@@ -45,6 +45,6 @@
     keepNavigationOnLandingPage();
     return loadScript("jsmain.js");
   }).catch(function (error) {
-    console.error("DarbDev partial loading failed.", error);
+    console.error("Felix Softwares partial loading failed.", error);
   });
 }());

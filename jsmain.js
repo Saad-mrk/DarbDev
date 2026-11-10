@@ -1,7 +1,7 @@
 /* Les contenus éditables vivent dans site-config.js. */
 const PROJECTS = window.DARBDEV_CONFIG?.projects || [];
 
-/* DarbDev - interactions de la landing page */
+/* Felix Softwares - interactions de la landing page */
 (function () {
   "use strict";
 
