@@ -492,8 +492,8 @@ h2 em {
 .hero__inner {
   position: relative;
   display: grid;
-  grid-template-columns: 1.03fr 0.97fr;
-  gap: 60px;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 48px;
   align-items: center;
   min-height: 680px;
 }
@@ -599,8 +599,8 @@ h2 em {
   align-items: center;
   gap: 13px;
   padding: 17px 20px;
-  color: var(--white);
-  background: #1f4e59;
+  color: #1f4e59;
+  background: var(--white);
   box-shadow: var(--shadow-lg);
 }
 .floating-card__icon {
@@ -608,7 +608,7 @@ h2 em {
   place-items: center;
   width: 37px;
   height: 37px;
-  background: green;
+  background: var(--accent);
   border-radius: 50%;
 }
 .floating-card__icon .icon {
@@ -622,7 +622,7 @@ h2 em {
 }
 .hero__floating-card small {
   display: block;
-  color: #667085;
+  color: #546179;
   font-size: 0.7rem;
 }
 .hero__vertical-label {
@@ -2170,6 +2170,7 @@ h2 em {
   }
   .hero__image-wrap {
     inset: 0 18px 30px 0;
+    margin-left: 0;
     border-radius: 0 130px 0 0;
   }
   .hero__floating-card {
