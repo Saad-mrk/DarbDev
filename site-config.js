@@ -90,7 +90,7 @@ window.DARBDEV_CONFIG = {
       tech: ["HTML/CSS", "JavaScript", "Node.js"],
       repoUrl: "https://github.com/Saad-mrk",
       liveUrl: "",
-      image: "PortailAtlass.jpeg",
+      image: "assets/images/PortailAtlass.jpeg",
       category: "Web"
     },
     {
@@ -100,7 +100,7 @@ window.DARBDEV_CONFIG = {
       tech: ["Flutter", "Firebase", "UX/UI"],
       repoUrl: "https://github.com/mohammedbourass-youssef",
       liveUrl: "",
-      image: "NovaMobile.jpeg",
+      image: "assets/images/NovaMobile.jpeg",
       category: "Mobile"
     },
     {
@@ -110,7 +110,7 @@ window.DARBDEV_CONFIG = {
       tech: ["Odoo", "Python", "PostgreSQL"],
       repoUrl: "https://github.com/TAOUFIK0",
       liveUrl: "",
-      image: "fluxerp.jpeg",
+      image: "assets/images/fluxerp.jpeg",
       category: "ERP"
     }
   ]
